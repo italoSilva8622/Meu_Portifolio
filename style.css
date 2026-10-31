@@ -37,6 +37,10 @@ a {
 .menu {
     font-family: 'Inter', sans-serif;
     display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--cor-fundo);
     justify-content: space-between;
     max-height: 80px;
     width: auto;
