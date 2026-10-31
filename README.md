@@ -1,4 +1,4 @@
-💻 Portfólio Pessoal — Italo Silva
+# 💻 Portfólio Pessoal — Italo Silva
 
 Meu primeiro projeto de portfólio pessoal, desenvolvido durante meus estudos no **DevClub**, com o objetivo de colocar em prática meus conhecimentos em desenvolvimento web.
 
