@@ -171,8 +171,8 @@ a {
 .sobre {
     padding-top: 30px;
     padding-left: 50px;
-    /*     background-color: brown; */
-    /* height: 750px; */
+    /* background-color: brown; */
+    padding-bottom: 20px;
     width: 100%;
 }
 
@@ -195,7 +195,31 @@ a {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: #B8BBC5;
+    line-height: 20px;
+    padding: 15px 0;
+    color: var(--cor-texto);
+}
+
+.h2-sobre {
+    font-size: 55px;
+    font-weight: 600;
+    word-spacing: 5px;
+    line-height: 60px;
+    padding: 15px 0;
+}
+
+.h3-sobre-conteudo {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    color: var(--cor-texto-secundario);
+    padding-bottom: 5px;
+}
+
+.p-sobre-conteudo {
+    color: var(--cor-texto-secundario);
+    font-size: 16px;
+    font-weight: 100;
 }
 
 
