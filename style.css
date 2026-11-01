@@ -81,6 +81,8 @@ a {
     color: var(--cor-destaque);
 }
 
+
+/* Estilização do banner e informações e botão de entra em contato */
 .banner {
     position: relative;
 }
@@ -155,14 +157,53 @@ a {
     background-color: rgba(255, 23, 56, 0.8);
 }
 
+/* Estilização da seção sobre mim */
+
+.sobre {
+    padding-top: 30px;
+    padding-left: 50px;
+    /*     background-color: brown; */
+    /* height: 750px; */
+    width: 100%;
+}
+
+.sobre-titulo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.linha {
+    width: 40px;
+    height: 4px;
+    background-color: #FF1738;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.sobre-titulo h3 {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #B8BBC5;
+}
 
 
+
+/* Estilo da seção dos conhecimentos e habilidades */
 .tecnologia {
     padding-top: 30px;
     padding-left: 50px;
     /* background-color: brown; */
     height: 750px;
     width: 100%;
+}
+
+.subtitulo-tecnologia {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 
@@ -237,7 +278,7 @@ a {
 }
 
 
-
+/* Estilização do rodapé da página */
 .rodape {
     border-top: 1px solid var(--cor-destaque);
 }
